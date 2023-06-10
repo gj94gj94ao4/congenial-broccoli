@@ -1,9 +1,11 @@
+[![Python CI Steps Github Actions](https://github.com/gj94gj94ao4/congenial-broccoli/actions/workflows/devops.yml/badge.svg)](https://github.com/gj94gj94ao4/congenial-broccoli/actions/workflows/devops.yml)
+
 # congenial-broccoli
 python microservice practice
 
-## plan
+## plan  
 
-1. learn basic knowlage about aws and microservice  (about 2 hours)
+1. learn basic knowldge about aws and microservice  (about 2 hours)
 2. setup enviroment about CICD tool and aws container   (about 10 hours)
 3. make a simple login and profile api   (about 3 hours)
 
