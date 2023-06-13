@@ -4,8 +4,10 @@ install:
 		pip install -r requirements.txt
 format:
 	# format code
+	autopep8 --in-place --recursive .
 lint:
 	# pylint code
+	pylint --disable=R,C *.py mylib
 test:
 	# test code
 deploy:
