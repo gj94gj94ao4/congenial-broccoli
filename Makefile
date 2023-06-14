@@ -10,6 +10,7 @@ lint:
 	pylint --disable=R,C *.py mylib
 test:
 	# test code
+	python -m pytest -vv --cov=mylib core_test.py
 deploy:
 	# deploy code
 all: install format lint test deploy
